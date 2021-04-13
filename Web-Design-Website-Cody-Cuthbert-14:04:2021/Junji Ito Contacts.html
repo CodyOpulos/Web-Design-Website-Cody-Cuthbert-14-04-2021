@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Junji Ito Contact</title>
+</head>	
+	<style>
+		h1 {
+			color:black;
+			font-size: 65px;
+			font-family: Bluu Next;
+			text-align: center;
+		}
+		h2{color:black;
+			font-size: 30px;
+			font-family: Bluu Next;
+			}
+		h3{color:whitesmoke;text-align: center;font-size: 30px; padding-top: 100px;font-family: YoungSerif;}
+		p{color:whitesmoke;padding-left: 350px; padding-right: 350px;
+			font-family: 'Archivo Narrow', sans-serif;}
+	
+	header {
+			
+			background-color:#000000;
+				
+				padding-top: 10px;
+				padding-bottom: 10px;
+				
+		}
+		
+		footer {
+			background-color:#000000;
+			margin-top: 100px;
+			padding: 15px;
+		}
+	
+	.inline {
+			text-align: center;
+			vertical-align: text-top;
+			display:inline-block;
+		}
+	
+	.back-to-top {
+    font-weight: 500 !important;
+    background-color: #000000;
+	font-family: Bluu Next;
+    color: #FFFFFF; 
+    bottom: 10px;     
+    width: 200px;     
+    height: 50px;
+    display: none;
+    z-index: 999;
+    position:fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a.back-to-top {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 4px;    
+  }
+	
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+font-family: 'Archivo Narrow', sans-serif;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  display: block;
+  transition: 0.3s;
+}
+	
+	
+	#main {
+  transition: margin-left .5s;
+  padding: 16px;
+
+}
+		
+		
+		td {
+			color:#FFFFFF
+		}
+		
+	
+	</style>
+
+<body>
+	
+	<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="Junji Ito Homepage.html"><h2>HOME</h2></a>
+    <a href="Junji Ito Interview.html"><h2>INTERVIEW</h2></a>
+   <a href="Junji Ito Works.html"><h2>ITO'S WORK</h2></a>
+	<a href="Junji Ito Contacts.html"><h2>CONTACTS</h2></a>
+  </div>
+      
+  <div id="main">
+   <button class="openbtn" onclick="openNav()"><input type="image" src="Menu Button@4x.png" width="90"></button>  
+  </div>
+	
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	<form>
+		<center><h1>Contact Us</h1></center>
+		<table width="600" height="650px" bgcolor="black" border="0" align="center">
+  <tbody>
+    <tr>
+      <td style="padding-left: 40px; padding-right: 40px;">Name</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td style="padding-left: 40px; padding-right: 40px;">Email</td>
+      <td><input type="email"></td>
+    </tr>
+    <tr>
+      <td style="padding-left: 40px; padding-right: 40px;">Contact Number</td>
+      <td><input type="number"></td>
+    </tr>
+    <tr>
+      <td style="padding-left: 40px; padding-right: 40px;">Message</td>
+      <td><textarea rows = "5" cols = "50" name = "description">
+         </textarea></td>
+    </tr>
+	  <tr>
+		  <td>&nbsp;</td>
+		  <center><td><input type="submit"></td></center>
+			</tr>
+  </tbody>
+</table>
+		
+	</form>
+		
+		
+	<footer id="footer">
+<center>
+	<p style="font-family: YoungSerif">Cody Cuthbert</p>
+	<p style="font-family: YoungSerif">2021</p>	
+		</center>
+		
+<body style="background-color:white"></body>
+	</footer>
+		
+</body>
+</html>

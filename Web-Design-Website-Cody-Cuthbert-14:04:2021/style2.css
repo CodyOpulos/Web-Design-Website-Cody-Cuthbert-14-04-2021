@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url("Full page.css");
+
+@media (min-width: 401px) and (max-width: 768px){
+	h1 {
+			color:whitesmoke;
+			font-size: 60px;
+			font-family: Bluu Next;
+			text-align: center;
+		}
+		h2{color:black;
+			font-size: 30px;
+			font-family: Bluu Next;
+			}
+		h3{color:whitesmoke;font-size: 22px; margin-top: 30px;font-family: YoungSerif;padding-left: 100px; padding-right: 100px;}
+		p{color:whitesmoke; padding-left: 100px; padding-right: 100px; font-size: 16px;
+		font-family: 'Archivo Narrow', sans-serif;}
+	
+	img{text-align: center}
+	
+}
+
+@media (max-width: 400px){
+	h1 {
+			color:whitesmoke;
+			font-size: 50px;
+			font-family: Bluu Next;
+			text-align: center;
+		}
+		h2{color:black;
+			font-size: 15px;
+			text-align: left;
+			font-family: Bluu Next;
+			}
+		h3{color:whitesmoke;font-size: 20px; margin-top: 50px;font-family: YoungSerif;}
+		p{color:whitesmoke; font-size: 15px;
+		font-family: 'Archivo Narrow', sans-serif;}
+	
+	#left {    
+		text-align: left; width: 100px;}
+}
+
+
